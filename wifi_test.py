@@ -32,4 +32,4 @@ input("Press enter to continue...")
 wordlist = input("Enter file path for wordlist you wish to use > ")
 aircrack = f"aircrack-ng {location}-01.cap -w {wordlist}"
 
-system(wordlist)
+system(aircrack)
