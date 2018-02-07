@@ -8,3 +8,4 @@ do
 	read -p 'Enter name of interface > ' card
 	aireplay-ng -0 $deauth -a $bssid -c $mac $card
 done
+
