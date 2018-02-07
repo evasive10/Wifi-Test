@@ -18,7 +18,7 @@ channel = int(input("Enter channel number of selected bssid > "))
 location = input("File path for where you would like files saved \033[1;32;40m PLEASE INCLUDE NAME FOR FILE ie: /root/Desktop/apple \033[0;0m > ")
 
 
-os.system("gnome-terminal -e /root/wifi_hacking/deauth.sh")
+os.system("gnome-terminal -e ./deauth.sh")
 
 print("\n")
 input("Press enter to continue ...")
